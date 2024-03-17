@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat&family=Roboto&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 30px;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(176, 255, 30, 0.4);
+    background-image: url('./images/blob-scene-haikei.svg');
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+header, footer{
+    padding: 20px;
+}
+section{
+    font-family: 'Michroma';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    flex-grow: 1;
+    width: 50%;
+
+}
+#counterDisplay{
+    text-align: center;
+    padding: 20px;
+}
+button{
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#increment{
+    background-color:#001220 ;
+    color: whitesmoke;
+}
+#decrement{
+    background-color: #FBAE3C;
+}
+button:hover{
+    background-color: grey;
+}
